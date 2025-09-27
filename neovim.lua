@@ -16,6 +16,14 @@ return {
         set(0, "NavicSeparator", { fg = "#515A6B", bg = "#3C3F41" })
         set(0, "NormalFloat", { fg = "#A9B7C6", bg = "#313335" })
         set(0, "FloatBorder", { fg = "#515A6B", bg = "#313335" })
+        local call_fg = "#C792EA"
+        set(0, "@function.call", { fg = call_fg })
+        set(0, "@function.method", { fg = call_fg })
+        set(0, "@function.method.call", { fg = call_fg })
+        set(0, "@method", { fg = call_fg })
+        set(0, "@method.call", { fg = call_fg })
+        set(0, "@lsp.type.function", { fg = call_fg })
+        set(0, "@lsp.type.method", { fg = call_fg })
         for _, mode in ipairs({ "normal", "insert", "visual", "replace", "command", "inactive" }) do
           set(0, "lualine_c_" .. mode, { fg = "#A9B7C6", bg = "#3C3F41" })
         end
