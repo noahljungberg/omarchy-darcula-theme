@@ -10,7 +10,7 @@ A JetBrains Darcula-inspired theme pack for [Omarchy.org](https://omarchy.org) t
 - Curated for terminal emulators (Alacritty, Kitty, Ghostty) with unified 16-color tables and high-contrast selections.
 - Desktop polish for Hyprland, Waybar, Mako, Walker, SwayOSD, and lock screens using the same accent tones.
 - Editor integrations for Neovim (LazyVim + Darcula Solid), VS Code, Chromium, and Papirus-Dark icons to match.
-- Wallpaper pack of five moody scenes that echo the palette.
+- Wallpaper pack of seven moody scenes that echo the palette.
 
 ## Palette
 | Role | Hex |
@@ -31,8 +31,12 @@ A JetBrains Darcula-inspired theme pack for [Omarchy.org](https://omarchy.org) t
   <img src="backgrounds/3-dark-rain.png" alt="Neon rain" width="30%" />
 </p>
 <p align="center">
-  <img src="backgrounds/4-café.png" alt="Late night cafe" width="40%" />
-  <img src="backgrounds/5-beach.png" alt="Overcast shoreline" width="40%" />
+  <img src="backgrounds/4-hot.png" alt="Midnight neon" width="30%" />
+  <img src="backgrounds/5-beach.png" alt="Overcast shoreline" width="30%" />
+  <img src="backgrounds/6-oas.png" alt="Oracle of the sea" width="30%" />
+</p>
+<p align="center">
+  <img src="backgrounds/7-oas.png" alt="Oasis skyline" width="30%" />
 </p>
 
 ## Included Configs
