@@ -1,0 +1,59 @@
+@define-color foreground #A9B7C6;
+@define-color foreground-dim #808080;
+@define-color background #2B2B2B;
+@define-color background-alt #3C3F41;
+@define-color accent #CC7832;
+@define-color accent-alt #6897BB;
+@define-color warning #BBB529;
+@define-color critical #FF0000;
+
+* {
+  color: @foreground;
+  background-color: transparent;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+window#waybar {
+  background-color: alpha(@background, 0.94);
+  color: @foreground;
+  border-bottom: 2px solid @accent;
+}
+
+#workspaces button {
+  color: @foreground-dim;
+  background-color: @background-alt;
+  border-radius: 6px;
+  padding: 0 8px;
+  border: 1px solid alpha(@accent-alt, 0.4);
+}
+
+#workspaces button.focused {
+  color: #2B2B2B;
+  background-color: @accent;
+}
+
+#workspaces button.urgent {
+  color: #2B2B2B;
+  background-color: @accent-alt;
+}
+
+#battery.warning, #network.disconnected {
+  color: @warning;
+}
+
+#battery.critical {
+  color: @critical;
+}
+
+#clock, #battery, #network, #pulseaudio, #tray, #cpu, #memory {
+  background-color: alpha(@background-alt, 0.85);
+  border-radius: 6px;
+  padding: 0 10px;
+  margin: 0 4px;
+  border: 1px solid alpha(@accent, 0.5);
+}
+
+#clock {
+  font-weight: 600;
+  color: @foreground;
+}

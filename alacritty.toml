@@ -1,0 +1,50 @@
+# ────────────────────────────────────────────────────────────
+# Omarchy Darcula Theme for Alacritty
+# Canonical JetBrains Darcula palette
+# ────────────────────────────────────────────────────────────
+
+[window]
+# window padding {px}
+padding.x = 12
+padding.y = 12
+
+[font]
+size = 12.0
+
+[colors]
+[colors.primary]
+background = "#2B2B2B"
+foreground = "#A9B7C6"
+dim_foreground = "#808080"
+
+[colors.cursor]
+text = "#2B2B2B"
+cursor = "#FFD760"
+
+[colors.vi_mode_cursor]
+text = "#2B2B2B"
+cursor = "#FFD760"
+
+[colors.selection]
+text = "#FFFFFF"
+background = "#3F4B6E"
+
+[colors.normal]
+black = "#2B2B2B"
+red = "#FF6B68"
+green = "#629755"
+yellow = "#CC7832"
+blue = "#6897BB"
+magenta = "#9876AA"
+cyan = "#6A8759"
+white = "#A9B7C6"
+
+[colors.bright]
+black = "#3C3F41"
+red = "#FF938A"
+green = "#76B572"
+yellow = "#FFD760"
+blue = "#7AA6DA"
+magenta = "#B08CBC"
+cyan = "#8EB39B"
+white = "#FFFFFF"
