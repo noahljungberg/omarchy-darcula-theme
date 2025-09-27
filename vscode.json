@@ -1,4 +1,9 @@
 {
   "name": "Darcula",
-  "extension": "rokoroku.vscode-theme-darcula"
+  "extension": "rokoroku.vscode-theme-darcula",
+  "settings": {
+    "workbench.colorTheme": "Darcula",
+    "workbench.preferredDarkColorTheme": "Darcula",
+    "window.titleBarStyle": "custom"
+  }
 }
