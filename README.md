@@ -20,14 +20,14 @@ A JetBrains Darcula-inspired theme pack for [Omarchy.org](https://omarchy.org) t
 
 ## Background Set
 <p align="center">
-  <img src="backgrounds/1-oas.png" alt="Oracle of the sea" width="30%" />
-  <img src="backgrounds/2-oas.png" alt="Oasis skyline" width="30%" />
-  <img src="backgrounds/3-hot.png" alt="Midnight neon" width="30%" />
+  <img src="backgrounds/1-oas.png" width="30%" />
+  <img src="backgrounds/2-oas.png" width="30%" />
+  <img src="backgrounds/3-hot.png" width="30%" />
 </p>
 <p align="center">
-  <img src="backgrounds/4-readgirl.png" alt="Reading silhouette" width="30%" />
-  <img src="backgrounds/5-linkoping.png" alt="Linköping twilight" width="30%" />
-  <img src="backgrounds/6-dark-rain.png" alt="Neon rain" width="30%" />
+  <img src="backgrounds/4-readgirl.png" width="30%" />
+  <img src="backgrounds/5-linkoping.png" width="30%" />
+  <img src="backgrounds/6-dark-rain.png" width="30%" />
 </p>
 
 ## Usage
