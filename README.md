@@ -29,6 +29,7 @@ A JetBrains Darcula-inspired theme pack for [Omarchy.org](https://omarchy.org) t
   <img src="backgrounds/5-linkoping.png" width="30%" />
   <img src="backgrounds/6-dark-rain.png" width="30%" />
   <img src="backgrounds/7-stockholm.png" width="30%" />
+  <img src="backgrounds/8-stockholm.png" width="30%" />
 </p>
 
 ## Usage
