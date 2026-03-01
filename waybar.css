@@ -22,19 +22,22 @@ window#waybar {
 #workspaces button {
   color: @foreground-dim;
   background-color: @background-alt;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 0 8px;
+  margin: 0 2px;
   border: 1px solid alpha(@accent-alt, 0.4);
 }
 
 #workspaces button.focused {
   color: #2B2B2B;
   background-color: @accent;
+  border-color: @accent;
 }
 
 #workspaces button.urgent {
   color: #2B2B2B;
   background-color: @accent-alt;
+  border-color: @accent-alt;
 }
 
 #battery.warning, #network.disconnected {
@@ -46,11 +49,11 @@ window#waybar {
 }
 
 #clock, #battery, #network, #pulseaudio, #tray, #cpu, #memory {
-  background-color: alpha(@background-alt, 0.85);
-  border-radius: 6px;
-  padding: 0 10px;
-  margin: 0 4px;
-  border: 1px solid alpha(@accent, 0.5);
+  background-color: alpha(@background-alt, 0.9);
+  border-radius: 8px;
+  padding: 0 12px;
+  margin: 0 5px;
+  border: 1px solid alpha(@accent, 0.3);
 }
 
 #clock {
